@@ -1,0 +1,7 @@
+/boot         mtd       boot                     flags=display=boot
+/cache        ubifs     cache                    flags=display=cache
+/data         ubifs     userdata                 flags=display=data
+/misc         mtd       misc                     flags=display=misc
+/recovery     mtd       recovery                 flags=display=recovery
+/sdcard       vfat      /dev/block/mmcblk0p1     flags=display=sdcard
+/system       ubifs     system                   flags=display=system
